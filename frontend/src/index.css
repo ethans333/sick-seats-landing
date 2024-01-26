@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white xl:w-[50vw] mx-auto font-Inter pb-[10vh];
+}
+
+h1 {
+  @apply text-3xl lg:text-6xl
+}
+
+h3 {
+  @apply text-slate-800
+}
+
+.grad-text {
+  @apply bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text
+}
+
+p {
+  @apply text-slate-700
+}
